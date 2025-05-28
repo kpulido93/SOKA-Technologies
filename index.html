@@ -3,94 +3,17 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Soluciones tecnológicas a medida con automatización, desarrollo y soporte. SOKA Technologies - tecnología con propósito." />
+  <meta name="author" content="SOKA Technologies" />
   <title>SOKA Technologies</title>
-  <style>
-    body {
-      font-family: 'Segoe UI', sans-serif;
-      margin: 0;
-      padding: 0;
-      background-color: #f9f9f9;
-      color: #222;
-    }
-
-    header {
-      background-color: #2d3e50;
-      color: #fff;
-      padding: 20px;
-      text-align: center;
-    }
-
-    nav a {
-      color: #fff;
-      margin: 0 15px;
-      text-decoration: none;
-      font-weight: bold;
-    }
-
-    .hero {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
-      padding: 100px 20px;
-      background: linear-gradient(135deg, #2d3e50, #4e73df);
-      color: #fff;
-    }
-
-    .hero-content {
-      max-width: 700px;
-    }
-
-    .hero h1 {
-      font-size: 3em;
-      margin-bottom: 20px;
-    }
-
-    .hero p {
-      font-size: 1.2em;
-      margin: 10px 0;
-    }
-
-    .btn-whatsapp {
-      display: inline-block;
-      margin-top: 25px;
-      padding: 12px 25px;
-      background-color: #25D366;
-      color: white;
-      font-weight: bold;
-      border-radius: 5px;
-      text-decoration: none;
-      transition: background 0.3s ease;
-    }
-
-    .btn-whatsapp:hover {
-      background-color: #1ebe5d;
-    }
-
-    section {
-      padding: 60px 20px;
-      max-width: 900px;
-      margin: auto;
-    }
-
-    section h2 {
-      font-size: 2em;
-      margin-bottom: 20px;
-      color: #2d3e50;
-    }
-
-    footer {
-      background-color: #2d3e50;
-      color: #fff;
-      text-align: center;
-      padding: 20px;
-      font-size: 0.9em;
-    }
-  </style>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="icon" type="image/png" href="assets/logo.png" />
 </head>
 <body>
 
-  <header>
+  <header class="fade-in">
+    <img src="assets/logo.png" alt="Logo SOKA Technologies" class="logo">
     <h1>SOKA Technologies</h1>
     <nav>
       <a href="#servicios">Servicios</a>
@@ -99,7 +22,7 @@
     </nav>
   </header>
 
-  <section class="hero">
+  <section class="hero fade-in">
     <div class="hero-content">
       <h1>Soluciones tecnológicas con el toque humano</h1>
       <p>Especialistas en <strong>infraestructura de TI</strong>, <strong>diseño de aplicaciones a medida</strong> y <strong>automatización de procesos</strong>.</p>
@@ -107,7 +30,7 @@
     </div>
   </section>
 
-  <section id="servicios">
+  <section id="servicios" class="fade-in">
     <h2>Servicios</h2>
     <ul>
       <li>🔧 Soporte en Infraestructura Tecnológica</li>
@@ -116,15 +39,14 @@
     </ul>
   </section>
 
-  <section id="nosotros">
+  <section id="nosotros" class="fade-in">
     <h2>Sobre Nosotros</h2>
     <p>
       SOKA Technologies es una empresa familiar apasionada por la tecnología. Nuestro equipo está conformado por personas comprometidas con ofrecer soluciones útiles, eficientes y adaptadas a las necesidades reales de nuestros clientes.  
-      Valoramos la cercanía, la calidad y el compromiso.
     </p>
   </section>
 
-  <section id="contacto">
+  <section id="contacto" class="fade-in">
     <h2>Contacto</h2>
     <p>¿Tienes un proyecto o necesitas soporte? Escríbenos por WhatsApp o envíanos un correo:</p>
     <p><strong>Email:</strong> contacto@sokatechnologies.com</p>
@@ -135,5 +57,6 @@
     &copy; 2025 SOKA Technologies. Todos los derechos reservados.
   </footer>
 
+  <script src="scripts/main.js" defer></script>
 </body>
 </html>
