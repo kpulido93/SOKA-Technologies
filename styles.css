@@ -103,6 +103,23 @@ ul li {
   font-size: 1.1em;
 }
 
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.product-card {
+  background-color: #122a3f;
+  border-radius: 12px;
+  padding: 20px;
+}
+
+.product-card h3 {
+  margin-top: 0;
+  color: var(--secondary);
+}
+
 footer {
   background-color: #122a3f;
   color: var(--secondary);
